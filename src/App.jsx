@@ -1,5 +1,6 @@
 import About from './components/About/About';
 import Compus from './components/Compus/Compus';
+import Contact from './components/Contact/Contact';
 import Hero from './components/Hero/Hero';
 import Navbar from './components/Navbar/Navbar';
 import Programs from './components/Programs/Programs';
@@ -19,6 +20,8 @@ const App = () => {
         <Compus />
         <Title subTitle="TESTIMONIALS" title="What Students Says" />
         <Testimonials />
+        <Title subTitle="Contact Us" title="Get and Touch with Us" />
+        <Contact/>
       </div>
     </div>
   );
