@@ -1,5 +1,5 @@
 .about {
-  margin: 100px auto;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -25,6 +25,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 
 .about h3 {
@@ -43,3 +44,30 @@
 	color: #676767;
 	margin-bottom: 15px;
 }	
+
+
+/******** media queries ********/
+
+@media (max-width: 850px) {
+  .about-right p {
+    font-size: 13px;
+  }
+} 
+
+@media (max-width: 650px) {
+	.about {
+		flex-direction: column;
+	}
+  .about-left {
+    flex-basis: 100%;
+    order: 2;
+    margin-top: 20px;
+  }
+  .about-right {
+    flex-basis: 100%;
+  }
+   .about-right p {
+    font-size: 14px;
+  }
+
+}

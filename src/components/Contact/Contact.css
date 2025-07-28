@@ -56,3 +56,17 @@
 	display: block;
 	margin: 20px 0;
 }
+
+
+/******** media queries ********/
+@media (max-width: 950px) {
+.contact {
+	max-width: 100%;
+}
+}
+
+@media (max-width: 768px) {
+.contact {
+	display: block;
+}
+}
