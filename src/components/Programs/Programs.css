@@ -45,3 +45,12 @@
 	opacity: 1;
 	padding-top: 0;
 }
+
+/******** media queries ********/
+
+@media (max-width: 650px) {
+	.programs {
+		flex-direction: column;
+		gap: 20px;
+	}
+}
